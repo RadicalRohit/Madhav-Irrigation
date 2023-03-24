@@ -1,16 +1,30 @@
 html, body{
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    width: max-content
+}
+p{
+    max-width: 60ch;
+    
+}
+
 ul{
     list-style: none;
     
 }
+nav{
+    text-transform: uppercase;
+    font-size: x-small;
+    letter-spacing: 0.2em;
+}
+
 nav li{
     display: inline-block;
     padding: 10px;
@@ -27,15 +41,19 @@ header{
     justify-content: space-between;
 }
 
-main{
-    padding: 1em;
-    
+footer{
+    margin-top: 10em;
 }
 
 
 
+img{
+    border-radius: 1em;
+}
+
+
 
 .logo-img{
-    width: 200px;
+    max-width: 280px;
     padding: 10px;
 }
