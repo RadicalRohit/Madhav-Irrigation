@@ -1,17 +1,27 @@
 html, body{
     margin: 0;
-    padding: 10px;
+    padding: 0;
+    background-color: #f5f5f5;
+
 }
 
+
 body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+section{
+    padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    width: max-content
-}
 p{
     max-width: 60ch;
+    line-height: 1.5em;
     
 }
 
@@ -28,6 +38,10 @@ nav{
 nav li{
     display: inline-block;
     padding: 10px;
+}
+nav li:hover{
+    text-decoration:  wavy underline;
+
 }
 a{
     text-decoration: none;
@@ -57,3 +71,5 @@ img{
     max-width: 280px;
     padding: 10px;
 }
+
+
