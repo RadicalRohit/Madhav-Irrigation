@@ -23,13 +23,19 @@ a{
 header{
 
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    padding: 1em;
+    
 }
 
 
 
 
-
 .logo-img{
-    width: 300px;
+    width: 200px;
     padding: 10px;
 }
