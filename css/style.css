@@ -9,6 +9,8 @@ html, body{
 body{
     font-family: 'Times New Roman', Times, serif;
 
+    padding-bottom: 5em;
+
 }
 
 section{
@@ -19,6 +21,12 @@ h1, h2, h3, h4, h5, h6{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2{
+    font-size: 4em;
+    line-height: 0.7em;
+    font-weight: 100;
+    color:yellowgreen;
+}
 p{
     max-width: 60ch;
     line-height: 1.5em;

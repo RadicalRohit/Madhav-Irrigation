@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <script type="module" src="./js/products/product.js"></script>
+   
+
 </head>
 <body>
 
@@ -46,13 +48,13 @@
                 border-radius: 5px;
             }
             </style>
-    <section class="gallary">
+    <!-- <section class="gallary">
         <img src="./img/sprinklers.jpeg" alt="Madhav Irrigation Sprinklers" srcset="">
         <img src="./img/What-is-Drip-Irrigation.jpeg" alt="What-is-Drip-Irrigation?" srcset="">
         <img src="./img/urban-gardens.jpeg" alt="urban-gardens" srcset="">
         <img src="./img/Manual-Irrigation.jpeg" alt="Manual Irrigation" srcset="">
         
-    </section>
+    </section> -->
 
     
     
@@ -62,20 +64,14 @@
             background-color: rgb(255, 255, 255);
             
         }
-        .featured-products h2{
-            font-size: 4em;
-            padding-top: 1em;
-            font-weight: 100;
-            color:yellowgreen;
-            
-        }
+
 
         .product-list{
             display: grid;
             /* grid template columns that is reponsive */
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 10px;
+            font-size: smaller;
 
         }
         .product img{
@@ -114,8 +110,52 @@
     </section>
     </main>
         
+
+    <style>
+
+        #products_categories{
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+            /* algin items vertical */
+            align-items: center;
+
+        }
+        .category{
+            display: inline-block;
+            background-color: rgb(255, 255, 255);
+        }
+        .select-category{
+            background-color: inherit;
+            border: 0;
+            padding: 0.5em 1.5em ;
+            margin: 3px;
+            text-transform: uppercase;
+            display: flex;
+
+        }
+        .select-category:hover{
+            background-color: cornflowerblue;
+            color: rgb(255, 255, 255);
+        }
+
+    </style>
         
 
+
+
+
+    <section id="products">
+
+        <h2 style="color: cornflowerblue;">Irrigation products</h2>
+
+        <div >
+            <ul id="products_categories">
+                
+            </ul>
+        </div>
+
+    </section>
     
 </body>
 </html>
