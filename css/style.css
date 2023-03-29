@@ -8,7 +8,7 @@ html, body{
 
 body{
     font-family: 'Times New Roman', Times, serif;
-
+    position: relative;
     padding-bottom: 5em;
 
 }
@@ -41,6 +41,8 @@ nav{
     text-transform: uppercase;
     font-size: x-small;
     letter-spacing: 0.2em;
+
+    z-index: 10;
 }
 
 nav li{
@@ -57,11 +59,30 @@ a{
 }
 
 header{
-
+   
     text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: #f5f5f5;
+    width: 100%;
+
 }
+
+/* how to add breakpoint */
+@media screen and (max-width: 600px){
+    header{
+        position: static;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        padding: 5px;
+    }
+}
+
 
 footer{
     margin-top: 10em;

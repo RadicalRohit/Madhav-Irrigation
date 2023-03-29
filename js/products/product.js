@@ -12,6 +12,9 @@ console.log(products[1].category);
 // loop all categories from products.json only unique
 const categories = products.map((product) => product.category);
 const all_categories = [...new Set(categories)];
+// asending order
+all_categories.sort();
+
 
 
 // show all categories on id products_categories

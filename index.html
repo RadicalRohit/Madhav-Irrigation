@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,47 +9,92 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <script type="module" src="./js/products/product.js"></script>
-   
+
 
 </head>
+
 <body>
 
-    <header>
+    <div style="
+
+            position: relative;
+            
+            background-color: #d2cbc2;
+            background-image: url(./img/Irrigation-sprinklers.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+            
+
+            /* paralex effect */
+            background-attachment: fixed;
+            height: 50vh;
+            background-blend-mode: multiply;
+            /* background blur */
+            
+
+
+            ">
+            <h1 style="
+            padding: 0 2em 0 1em;
+            z-index: 2;
+            position: absolute;
+            bottom: 0;
+            font-size: x-large; 
+            font-family:Arial, Helvetica, sans-serif;
+            color: rgb(241, 248, 255);
+            max-width: 60ch;
+
+            
+           ">
+                Madhav Irrigation the trusted manufacturer and supplier of high-quality irrigation products designed for
+                both agricultural and urban applications. We specialize in the design and manufacture of a wide range of
+                products, including metal and plastic filters, valves, pipes, sprinklers, and various fittings and
+                accessories.
+            </h1>
+        </div>
+
+    <header
+        style="
+            position: sticky;"
+    >
         <img src="./img/madhav_irrigation logo.png" alt="Madhav Irrigation Logo" srcset="" class="logo-img">
-        
+
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="index.html#products">Products</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="about-us.html#contact-us">Contact Us</a></li>
             </ul>
         </nav>
-        
+
     </header>
-        
+
     <main>
 
+
+
         
-        <h1 style="padding-right:20vmin; padding-left:10vmin; padding-top: 10vmin; font-size: xx-large; color:navy;">Madhav Irrigation the trusted manufacturer and supplier of high-quality irrigation products designed for both agricultural and urban applications. We specialize in the design and manufacture of a wide range of products, including metal and plastic filters, valves, pipes, sprinklers, and various fittings and accessories. </h1>
-         
+
         <style>
-            .gallary{
+            .gallary {
                 display: inline-flex;
-                justify-content: space-around;
+                justify-content: space-around;
                 gap: 10px;
 
                 /* scrollable index */
-                
+
                 overflow-x: visible;
             }
-            .gallary img{
-                
+
+            .gallary img {
+
                 height: 180px;
                 border-radius: 5px;
             }
-            </style>
-    <!-- <section class="gallary">
+        </style>
+        <!-- <section class="gallary">
         <img src="./img/sprinklers.jpeg" alt="Madhav Irrigation Sprinklers" srcset="">
         <img src="./img/What-is-Drip-Irrigation.jpeg" alt="What-is-Drip-Irrigation?" srcset="">
         <img src="./img/urban-gardens.jpeg" alt="urban-gardens" srcset="">
@@ -56,64 +102,72 @@
         
     </section> -->
 
-    
-    
 
-    <style>
-        .featured-products{
-            background-color: rgb(255, 255, 255);
+
+
+        <style>
+            .featured-products {
+                background-color: rgb(255, 255, 255);
+
+            }
+
+
+            .product-list {
+                display: grid;
+                /* grid template columns that is reponsive */
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 10px;
+                font-size: smaller;
+
+            }
+
+            .product img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        </style>
+
+        <section class="featured-products">
             
-        }
 
-
-        .product-list{
-            display: grid;
-            /* grid template columns that is reponsive */
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-            gap: 10px;
-            font-size: smaller;
-
-        }
-        .product img{
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 5px;
-        }
-    </style>
-
-    <section class="featured-products">
-        <h2>Featured Products</h2>
-
-        <div class="product-list">
-            <div class="product">
-                <img src="./img/sprinklers.jpeg" alt="Madhav Irrigation Sprinklers" srcset="">
-                <h3>Sprinklers</h3>
-                <p>Madhav Irrigation Sprinklers are designed to provide uniform irrigation to the crops. The sprinklers are available in different sizes and shapes to suit the requirements of the farmers.</p>
-            </div>
-            <div class="product">
-                <img src="./img/What-is-Drip-Irrigation.jpeg" alt="What-is-Drip-Irrigation?" srcset="">
-                <h3>Drip Irrigation</h3>
-                <p>Madhav Irrigation Drip Irrigation is a method of applying water to the soil surface through a network of pipes, tubing, and emitters. The water is delivered slowly to the root zone of the plants, where it is needed most.</p>
-            </div>
-            <div class="product">
-                <img src="./img/urban-gardens.jpeg" alt="urban-gardens" srcset="">
-                <h3>Urban Gardens</h3>
-                <p>Madhav Irrigation Urban Gardens are designed to provide uniform irrigation to the crops. The sprinklers are available in different sizes and shapes to suit the requirements of the farmers.</p>
-            </div>
-            <div class="product">
-                <img src="./img/Manual-Irrigation.jpeg" alt="Manual Irrigation" srcset="">
-                <h3>Manual Irrigation</h3>
-                <p>Madhav Irrigation Manual Irrigation is a method of applying water to the soil surface through a network of pipes, tubing, and emitters. The water is delivered slowly to the root zone of the plants, where it is needed most.</p>
-            </div>
-        </div>
-    </section>
+            <div class="product-list">
+                <div class="product">
+                    <img src="./img/sprinklers.jpeg" alt="Madhav Irrigation Sprinklers" srcset="">
+                    <h3>Sprinklers</h3>
+                    <p>Madhav Irrigation Sprinklers are designed to provide uniform irrigation to the crops. The
+                        sprinklers are available in different sizes and shapes to suit the requirements of the farmers.
+                    </p>
+                </div>
+                <div class="product">
+                    <img src="./img/What-is-Drip-Irrigation.jpeg" alt="What-is-Drip-Irrigation?" srcset="">
+                    <h3>Drip Irrigation</h3>
+                    <p>Madhav Irrigation Drip Irrigation is a method of applying water to the soil surface through a
+                        network of pipes, tubing, and emitters. The water is delivered slowly to the root zone of the
+                        plants, where it is needed most.</p>
+                </div>
+                <div class="product">
+                    <img src="./img/urban-gardens.jpeg" alt="urban-gardens" srcset="">
+                    <h3>Urban Gardens</h3>
+                    <p>Madhav Irrigation Urban Gardens are designed to provide uniform irrigation to the crops. The
+                        sprinklers are available in different sizes and shapes to suit the requirements of the farmers.
+                    </p>
+                </div>
+                <div class="product">
+                    <img src="./img/Manual-Irrigation.jpeg" alt="Manual Irrigation" srcset="">
+                    <h3>Manual Irrigation</h3>
+                    <p>Madhav Irrigation Manual Irrigation is a method of applying water to the soil surface through a
+                        network of pipes, tubing, and emitters. The water is delivered slowly to the root zone of the
+                        plants, where it is needed most.</p>
+                </div>
+            </div><h2>Irrigation Products </h2>
+        </section>
     </main>
-        
+
 
     <style>
-
-        #products_categories{
+        #products_categories {
             padding: 0;
             margin: 0;
             display: inline-block;
@@ -121,41 +175,43 @@
             align-items: center;
 
         }
-        .category{
+
+        .category {
             display: inline-block;
             background-color: rgb(255, 255, 255);
         }
-        .select-category{
+
+        .select-category {
             background-color: inherit;
             border: 0;
-            padding: 0.5em 1.5em ;
+            padding: 0.5em 1.5em;
             margin: 3px;
             text-transform: uppercase;
             display: flex;
 
         }
-        .select-category:hover{
+
+        .select-category:hover {
             background-color: cornflowerblue;
             color: rgb(255, 255, 255);
         }
-
     </style>
-        
+
 
 
 
 
     <section id="products">
 
-        <h2 style="color: cornflowerblue;">Irrigation products</h2>
-
-        <div >
+        
+        <div>
             <ul id="products_categories">
-                
+
             </ul>
         </div>
 
     </section>
-    
+
 </body>
+
 </html>
