@@ -32,3 +32,30 @@ all_categories.forEach((category) => {
 
     }); 
 
+
+
+// show all products on id products
+const products_container = document.getElementById("product-list");
+products.forEach((product) => {
+    products_container.innerHTML += `
+    <div class="product">
+        <div class="product-image">
+            <img src="./img/products/${product.category} ${product.name}.png" alt="${product.name}">
+        </div>
+        <div class="product-info">
+            <h6>${product.category}</h6>
+            <h4>${product.name}</h4>
+            <p><small>${product.description}</small></p>
+            <p class="price">${product.price} ₹  </p>
+            
+        </div>
+    </div>
+        `;
+
+    }   );
+
+
+    // products.forEach((product) => {
+    //     console.log(product.category+" "+product.name+ ".png");
+    // });
+

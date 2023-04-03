@@ -1,336 +1,323 @@
 [
 
   {
-
-    "category": "Filters",
-    "type": [
-      {
-        "name": "METAL SAND",
-        "price": 54.99,
-        "description": "Metal sand filter for irrigation systems",
-        "img": "https://example.com/images/metal-sand-filter.jpg"
-      },
-      {
-        "name": "PLASTIC SAND",
-        "price": 54.99,
-        "description": "Plastic sand filter for irrigation systems",
-        "img": "https://example.com/images/plastic-sand-filter.jpg"
-      },
-      {
-        "name": "PLASTIC SCREEN",
-        "price": 54.99,
-        "description": "Plastic screen filter for irrigation systems",
-        "img": "https://example.com/images/plastic-screen-filter.jpg"
-      },
-      {
-        "name": "PLASTIC DISK",
-        "price": 54.99,
-        "description": "Plastic disk filter for irrigation systems",
-        "img": "https://example.com/images/plastic-disk-filter.jpg"
-      },
-      {
-        "name": "PLASTIC SURE CLEAN",
-        "price": 54.99,
-        "description": "Plastic sure clean screen filter for irrigation systems",
-        "img": "https://example.com/images/plastic-sure-clean-filter.jpg"
-      },
-      {
-        "name": "PLASTIC SEMI AUTOMATIC SCREEN",
-        "price": 54.99,
-        "description": "Plastic semi AUTOMATIC screen filter for irrigation systems",
-        "img": "https://example.com/images/plastic-semi-AUTOMATIC-screen-filter.jpg"
-      },
-      {
-        "name": "PLASTIC SEMI AUTOMATIC DISK",
-        "price": 54.99,
-        "description": "Plastic semi AUTOMATIC disk filter for irrigation systems",
-        "img": "https://example.com/images/plastic-semi-AUTOMATIC-disk-filter.jpg"
-      }
-    ]
-
+    "name": "METAL SAND",
+    "price": 54.99,
+    "description": "Metal sand filter for irrigation systems",
+    
+    "category": "Filters"
+  },
+  {
+    "name": "PLASTIC SAND",
+    "price": 54.99,
+    "description": "Plastic sand filter for irrigation systems",
+    
+    "category": "Filters"
+  },
+  {
+    "name": "PLASTIC SCREEN",
+    "price": 54.99,
+    "description": "Plastic screen filter for irrigation systems",
+    
+    "category": "Filters"
+  },
+  {
+    "name": "PLASTIC DISK",
+    "price": 54.99,
+    "description": "Plastic disk filter for irrigation systems",
+   
+    "category": "Filters"
+  },
+  {
+    "name": "PLASTIC SURE CLEAN",
+    "price": 54.99,
+    "description": "Plastic sure clean screen filter for irrigation systems",
+  
+    "category": "Filters"
+  },
+  {
+    "name": "PLASTIC SEMI AUTOMATIC SCREEN",
+    "price": 54.99,
+    "description": "Plastic semi AUTOMATIC screen filter for irrigation systems",
+  
+    "category": "Filters"
+  },
+  {
+    "name": "PLASTIC SEMI AUTOMATIC DISK",
+    "price": 54.99,
+    "description": "Plastic semi AUTOMATIC disk filter for irrigation systems",
+    
+    "category": "Filters"
   },
 
   {
     "category": "Valves",
     "sub-category": "Union Ball Valve",
-
-    "color": [{
-        "name": "Green",
-        "description": "Green union ball valve for irrigation systems",
-        "img": "https://example.com/images/green-union-ball-valve.jpg"
-      },
-      {
-        "name": "Orange",
-        "description": "Orange union ball valve for irrigation systems",
-        "img": "https://example.com/images/orange-union-ball-valve.jpg"
-      },
-      {
-        "name": "White",
-        "description": "White union ball valve for irrigation systems",
-        "img": "https://example.com/images/white-union-ball-valve.jpg"
-      }
-    ],
-    "sizes": [{
-        "inch": "2\"",
-        "price": 12.99
-      },
-      {
-        "inch": "2.5\"",
-        "price": 14.99
-      }
-    ]
+    "name": "Green 2in Union Ball Valve",
+    "price": 12.99,
+    "inch": "2in",
+    "description": "Green union ball valve for irrigation systems"
+    
   },
+  {
+    "category": "Valves",
+    "sub-category": "Union Ball Valve",
+    "name": "Green 2.5in Union Ball Valve",
+    "price": 14.99,
+    "inch": "2.5in",
+    "description": "Green union ball valve for irrigation systems"
+    
+  },
+  {
+    "category": "Valves",
+    "sub-category": "Union Ball Valve",
+    "name": "Orange 2in Union Ball Valve",
+    "price": 12.99,
+    "inch": "2in",
+    "description": "Orange union ball valve for irrigation systems"
+  },
+  {
+    "category": "Valves",
+    "sub-category": "Union Ball Valve",
+    "name": "Orange 2.5in Union Ball Valve",
+    "price": 14.99,
+    "inch": "2.5in",
+    "description": "Orange union ball valve for irrigation systems"
+  },
+  {
+    "category": "Valves",
+    "sub-category": "Union Ball Valve",
+    "name": "White 2in Union Ball Valve",
+    "price": 12.99,
+    "inch": "2in",
+    "description": "White union ball valve for irrigation systems"
+  },
+  {
+    "category": "Valves",
+    "sub-category": "Union Ball Valve",
+    "name": "White 2.5in Union Ball Valve",
+    "price": 14.99,
+    "inch": "2.5in",
+    "description": "White union ball valve for irrigation systems"
+  },
+
 
   {
     "category": "Valves",
     "sub-category": "Flush Valve",
-    "sizes": [{
-        "inch": "2\"",
-        "price": 15.99,
-        "description": "Flush valve for irrigation systems"
-      },
-      {
-        "inch": "2.5\"",
-        "price": 17.99,
-        "description": "Flush valve for irrigation systems"
-      }
-    ],
-    "img": "https://example.com/images/flush-valve.jpg"
+    "name": "White 2in Union Ball Valve",
+    "price": 13.99,
+    "inch": "2in",
+    "description": "Flush valve for irrigation systems"
+  },
+  {
+    "category": "Valves",
+    "sub-category": "Flush Valve",
+    "name": "White 2.5in Union Ball Valve",
+    "price": 14.99,
+    "inch": "2in",
+    "description": "Flush valve for irrigation systems"
   },
 
   {
     "category": "Pipes",
     "sub-category": "PVC Pipe",
-    "sizes": [{
-        "name": "2\"",
-        "price": 16.99,
-        "description": "PVC pipe for irrigation systems",
-        "img": "https://example.com/images/pvc-pipe-2in.jpg"
-      },
-      {
-        "name": "2.5\"",
-        "price": 18.99,
-        "description": "PVC pipe for irrigation systems",
-        "img": "https://example.com/images/pvc-pipe-2.5in.jpg"
-      },
-      {
-        "name": "3\"",
-        "price": 19.99,
-        "description": "PVC pipe for irrigation systems",
-        "img": "https://example.com/images/pvc-pipe-3in.jpg"
-      }
-    ]
+    "name": "PVC Pipe 2in",
+    "price": 16.99,
+    "description": "PVC pipe for irrigation systems"
+  },
+  {
+    "category": "Pipes",
+    "sub-category": "PVC Pipe",
+    "name": "PVC Pipe 2.5in",
+    "price": 18.99,
+    "description": "PVC pipe for irrigation systems"
+  },
+  {
+    "category": "Pipes",
+    "sub-category": "PVC Pipe",
+    "name": "PVC Pipe 3in",
+    "price": 23.99,
+    "description": "PVC pipe for irrigation systems"
   },
 
   {
     "category": "Drip Irrigation",
     "sub_category": "Online Dripper Finolex Type",
-    "sizes": [{
-        "name": "4 LPH",
-        "price": 0.99,
-        "description": "Online dripper Finolex type for irrigation systems"
-      },
-      {
-        "name": "8 LPH",
-        "price": 1.99,
-        "description": "Online dripper Finolex type for irrigation systems"
-      },
-      {
-        "name": "16 LPH",
-        "price": 2.99,
-        "description": "Online dripper Finolex type for irrigation systems"
-      }
-    ]
+    "name": "4 LPH Online Dripper Finolex Type",
+    "price": 0.99,
+    "description": "Online dripper Finolex type for irrigation systems with a flow rate of 4 LPH"
   },
-
   {
     "category": "Drip Irrigation",
-    "sub_category": "Online Dripper",
-    "sizes": [{
-        "name": "4 LPH",
-        "price": 1.99,
-        "description": "Online dripper for irrigation systems"
-      },
-      {
-        "name": "8 LPH",
-        "price": 2.99,
-        "description": "Online dripper for irrigation systems"
-      },
-      {
-        "name": "16 LPH",
-        "price": 3.99,
-        "description": "Online dripper for irrigation systems"
-      }
-    ]
+    "sub_category": "Online Dripper Finolex Type",
+    "name": "8 LPH Online Dripper Finolex Type",
+    "price": 1.99,
+    "description": "Online dripper Finolex type for irrigation systems with a flow rate of 8 LPH"
   },
+  {
+    "category": "Drip Irrigation",
+    "sub_category": "Online Dripper Finolex Type",
+    "name": "16 LPH Online Dripper Finolex Type",
+    "price": 2.99,
+    "description": "Online dripper Finolex type for irrigation systems with a flow rate of 16 LPH"
+  },
+
+
 
   {
     "category": "Fittings Accessories",
-    "sizes": [
-      "16MM",
-      "20MM"
-    ],
-    "parts": [{
-        "name": "Tack off",
-        "price": 0.99,
-        "description": "Tack off for irrigation systems"
-      },
-      {
-        "name": "joint",
-        "price": 1.99,
-        "description": "joint for irrigation systems"
-      },
-      {
-        "name": "gromet",
-        "price": 2.99,
-        "description": "gromet for irrigation systems"
-
-      },
-      {
-        "name": "end-cap",
-        "price": 3.99,
-        "description": "end-cap for irrigation systems"
-      }
-    ]
+    "sizes": ["16MM", "20MM"],
+    "name": "Tack off",
+    "price": 0.99,
+    "description": "Tack off for irrigation systems"
+  },
+  {
+    "category": "Fittings Accessories",
+    "sizes": ["16MM", "20MM"],
+    "name": "Joint",
+    "price": 1.99,
+    "description": "Joint for irrigation systems"
+  },
+  {
+    "category": "Fittings Accessories",
+    "sizes": ["16MM", "20MM"],
+    "name": "Gromet",
+    "price": 2.99,
+    "description": "Gromet for irrigation systems"
+  },
+  {
+    "category": "Fittings Accessories",
+    "sizes": ["16MM", "20MM"],
+    "name": "End-cap",
+    "price": 3.99,
+    "description": "End-cap for irrigation systems"
   },
 
+
+
   {
-    "name": "COMPRESSION FITTING",
+    "name": "COMPRESSION FITTING END-CAP",
     "category": "Fittings Accessories",
     "size": "32MM",
-    "types": [{
-        "name": "END-CAP",
-        "price": 0.99,
-        "description": "END-CAP for irrigation systems"
-      },
-      {
-        "name": "MTA",
-        "price": 1.99,
-        "description": "MTA for irrigation systems"
-      },
-      {
-        "name": "MTE",
-        "price": 2.99,
-        "description": "MTE for irrigation systems"
-      }, 
-      {
-        "name": "Ball Valve",
-        "price": 3.99,
-        "description": "Ball Valve for irrigation systems"
-      }
-    ]
+    "price": 0.99,
+    "description": "END-CAP for irrigation systems"
   },
+  {
+    "name": "COMPRESSION FITTING MTA",
+    "category": "Fittings Accessories",
+    "size": "32MM",
+    "price": 1.99,
+    "description": "MTA for irrigation systems"
+    
+  },
+  {
+    "name": "COMPRESSION FITTING MTE",
+    "category": "Fittings Accessories",
+    "size": "32MM",
+    "price": 2.99,
+    "description": "MTE for irrigation systems"
+  },
+  {
+    "name": "COMPRESSION FITTING Ball Valve",
+    "category": "Fittings Accessories",
+    "size": "32MM",
+    "price": 3.99,
+    "description": "Ball Valve for irrigation systems"
+  },
+
+
+
 
   {
     "category": "SPRINKLER",
-    "fitting Accessories": [{
-        "name": "PCN OUTSIDE",
-        "price": 0.99,
-        "description": "PCN OUTSIDE for irrigation systems"
-      },
-      {
-        "name": "PCN INSIDE",
-        "price": 1.99,
-        "description": "PCN INSIDE for irrigation systems"
-      },
-      {
-        "name": "END CAP",
-        "price": 2.99,
-        "description": "END CAP for irrigation systems"
-      },
-      {
-        "name": "TEE",
-        "price": 3.99,
-        "description": "TEE for irrigation systems"
-      },
-      {
-        "name": "ELBO",
-        "price": 4.99,
-        "description": "ELBO for irrigation systems"
-      },
-      {
-        "name": "RISER PIPE",
-        "price": 5.99,
-        "description": "RISER PIPE for irrigation systems"
-      },
-      {
-        "name": "MICRO SPRINKLER",
-        "price": 6.99,
-        "description": "MICRO SPRINKLER for irrigation systems"
-      },
-      {
-        "name": "MINI SPRINKLER",
-        "price": 7.99,
-        "description": "MINI SPRINKLER for irrigation systems"
-      },
-      {
-        "name": "Red Cap Nozzle",
-        "price": 8.99,
-        "description": "Red Cap Nozzle for irrigation systems"
-      },
-      {
-        "name": "PIPE ",
-        "sizes": [{
-            "name": "2\"",
-            "price": 8.99,
-            "description": "PIPE 2\" for irrigation systems"
-          },
-          {
-            "name": "2.5\"",
-            "price": 9.99,
-            "description": "PIPE 2.5\" for irrigation systems"
-          }
-        ]
-      }
-    ]
+    "name": "PCN OUTSIDE",
+    "price": 0.99,
+    "description": "PCN OUTSIDE for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "PCN INSIDE",
+    "price": 1.99,
+    "description": "PCN INSIDE for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "END CAP",
+    "price": 2.99,
+    "description": "END CAP for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "TEE",
+    "price": 3.99,
+    "description": "TEE for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "ELBO",
+    "price": 4.99,
+    "description": "ELBO for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "RISER PIPE",
+    "price": 5.99,
+    "description": "RISER PIPE for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "MICRO SPRINKLER",
+    "price": 6.99,
+    "description": "MICRO SPRINKLER for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "MINI SPRINKLER",
+    "price": 7.99,
+    "description": "MINI SPRINKLER for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "Red Cap Nozzle",
+    "price": 8.99,
+    "description": "Red Cap Nozzle for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "PIPE",
+    "size": "2in",
+    "price": 8.99,
+    "description": "PIPE 2in for irrigation systems"
+  },
+  {
+    "category": "SPRINKLER",
+    "name": "PIPE",
+    "size": "2.5in",
+    "price": 9.99,
+    "description": "PIPE 2.5in for irrigation systems"
   },
 
   {
-    "name": "Madhav Mulching Film",
-    "category": "Mulching Film",
-    "sizes": [{
-        "name": "20 micron",
-        "price": 0.99,
-        "description": "20 micron for irrigation systems"
-      },
-      {
-        "name": "21 micron",
-        "price": 1.99,
-        "description": "21 micron for irrigation systems"
-      },
-      {
-        "name": "25 micron",
-        "price": 2.99,
-        "description": "25 micron for irrigation systems"
-      },
-      {
-        "name": "30 micron",
-        "price": 3.99,
-        "description": "30 micron for irrigation systems"
-      }
-    ]
+    "name": "Madhav Pressure Gauge kg per Cm2",
+    "category": "Pressure Gauge",
+    "price": 3.99,
+    "description": "Madhav Pressure Gauge for reading pressure"
   },
 
-  {
-    "name": "Madhav Pressure Gauge kg/Cm2",
-    "category": "Pressure Gauge"
-  },
 
   {
-
+    "name": "MADHAV HYROGOL PLAIN LATERAL ROLL ISI",
+    "price": 0.99,
     "category": "Roll",
-    "types": [{
-        "name": "MADHAV HYROGOL/PLAIN LATERAL ROLL ISI",
-        "price": 0.99,
-        "description": "MADHAV HYROGOL/PLAIN LATERAL ROLL ISI for irrigation systems"
-      },
-      {
-        "name": "MADHAV FLAT ROLL  ISI",
-        "price": 1.99,
-        "description": "MADHAV FLAT ROLL  ISI for irrigation systems"
+    "description": "MADHAV HYROGOL/PLAIN LATERAL ROLL ISI for irrigation systems"
+  },
+  {
+    "name": "MADHAV FLAT ROLL  ISI",
+    "price": 1.99,
+    "category": "Roll",
+    "description": "MADHAV FLAT ROLL  ISI for irrigation systems"
 
-      }
-    ]
   },
 
   {
@@ -338,5 +325,35 @@
     "category": "Venturi Injector",
     "price": 0.99,
     "description": "Venturi injector assembly complete 2 for irrigation systems"
+  },
+
+  {
+    "name": "Madhav Mulching Film - 20 micron",
+    "category": "Mulching Film",
+    "size": "20 micron",
+    "price": 0.99,
+    "description": "20 micron for irrigation systems"
+  },
+  {
+    "name": "Madhav Mulching Film - 21 micron",
+    "category": "Mulching Film",
+    "size": "21 micron",
+    "price": 1.99,
+    "description": "21 micron for irrigation systems"
+  },
+  {
+    "name": "Madhav Mulching Film - 25 micron",
+    "category": "Mulching Film",
+    "size": "25 micron",
+    "price": 2.99,
+    "description": "25 micron for irrigation systems"
+  },
+  {
+    "name": "Madhav Mulching Film - 30 micron",
+    "category": "Mulching Film",
+    "size": "30 micron",
+    "price": 3.99,
+    "description": "30 micron for irrigation systems"
   }
+
 ]
