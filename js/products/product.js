@@ -46,7 +46,7 @@ products.forEach((product) => {
             <h6>${product.category}</h6>
             <h4>${product.name}</h4>
             <p><small>${product.description}</small></p>
-            <p class="price">${product.price} ₹  </p>
+            
             
         </div>
     </div>

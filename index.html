@@ -19,7 +19,7 @@
 
             position: relative;
             
-            background-color: #d2cbc2;
+            background-color: #c4c4c4;
             background-image: url(./img/Irrigation-sprinklers.webp);
             background-repeat: no-repeat;
             background-size: cover;
@@ -41,9 +41,9 @@
             position: absolute;
             bottom: 0;
             font-size: x-large; 
-            font-family:Arial, Helvetica, sans-serif;
+            font-family:fantasy;
             color: rgb(241, 248, 255);
-            max-width: 60ch;
+            max-width: 55ch;
 
             
            ">
@@ -161,7 +161,9 @@
                         network of pipes, tubing, and emitters. The water is delivered slowly to the root zone of the
                         plants, where it is needed most.</p>
                 </div>
-            </div><h2>Irrigation Products </h2>
+            </div>        
+            
+            <h2 style="padding-bottom: 0;margin-bottom: 0;margin-top: 2em;  ">Irrigation Products </h2>
         </section>
     </main>
 
@@ -178,7 +180,7 @@
 
         .category {
             display: inline-block;
-            background-color: rgb(255, 255, 255);
+            
         }
 
         .select-category {
@@ -188,6 +190,8 @@
             margin: 3px;
             text-transform: uppercase;
             display: flex;
+            background-color: rgb(247, 228, 182);
+            border-radius: 5px;
 
         }
 
@@ -206,7 +210,8 @@
             /* responsive grid */
             display: grid;
             /* responsive grid */
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
 
             
 
@@ -214,19 +219,21 @@
 
         .product-image {
 
-            height: 200px;
+            height: 300px;
             }
 
         .product-image img{
             background-color: rgb(255, 255, 255);
             width: 100%;
-            height: 200px;
+            height: 300px;
             object-fit: contain;
+            border-radius: 5%;
             }
 
         .product-info{
             padding: 0 1em;
             line-height: 1em;
+            
 
             
         }
@@ -260,16 +267,19 @@
         }
 
         .product{
-            border: 1px solid rgb(0, 0, 0);
-            background-color:rgb(229, 229, 229);
+            padding: 0.1em;
+            margin: 0.5em;
             
-            
+            border-radius: 5%;
+            background-color: rgb(247, 247, 247);
+
+
+    
         }
         .product:hover{
             border: 2px solid cornflowerblue;
-            
-            /* scale  div*/
-            transform: scale(1.05);
+            box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+            scale: 0.98;
             
         }
 
