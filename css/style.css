@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 html, body{
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@ html, body{
 
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Space Grotesk', sans-serif;
     position: relative;
 
 
@@ -18,7 +20,7 @@ section{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 h2{
@@ -41,17 +43,18 @@ ul{
 nav{
     text-transform: uppercase;
     font-size: x-small;
-    letter-spacing: 0.2em;
+    letter-spacing: 2px;
 
     z-index: 10;
 }
 
 nav li{
     display: inline-block;
-    padding: 10px;
+    padding: 7px;
 }
 nav li:hover{
-    text-decoration:  wavy underline;
+    transform: scale(1.1);
+    text-decoration:  wavy underline 1px;
 
 }
 a{
@@ -98,5 +101,21 @@ header{
 
 
 
+.page-h1{
+    font-size: 3em;
+    line-height: 0.5em;
+    font-weight: 100;
+    color:yellowgreen;
+    text-align: center;
+}
 
 
+footer{
+    padding: 50px 0;
+    background-color: #edf2ff;
+
+}
+
+footer nav ul {
+    text-align: left;
+}

@@ -24,7 +24,6 @@ all_categories.forEach((category) => {
     <div class="category">
         
         <button class="select-category">
-            
             ${category}
         </button>
     </div>
