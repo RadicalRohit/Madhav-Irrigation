@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
+:root {
+
+    --primary-color: #yellowgreen;
+    --secondary-color:#C0EEF2;
+    --dark-color:#181823;
+    --light-color:#E9F8F9;
+    --primary: #537FE7;
+    --light: #d6d6d6;
+    --dark: #1d1818;
+    --dark-50: #919191;
+    --success: #38a460;
+    --danger: #a43838;
+    --warning: #d5c623;
+    --white: #fff;
+    --trigger-mobile: 400px;
+  }
+  
 html, body{
     margin: 0;
     padding: 0;
@@ -64,6 +81,8 @@ a{
 
 header{
    
+    position: sticky;
+    z-index: 10;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -78,12 +97,13 @@ header{
 /* how to add breakpoint */
 @media screen and (max-width: 600px){
     header{
-        position: static;
-        flex-direction: column;
-        align-items: center;
+        
+       
+       
     }
     nav{
-        padding: 5px;
+        padding: 2px;
+        display: none;
     }
 }
 
@@ -102,11 +122,27 @@ header{
 
 
 .page-h1{
-    font-size: 3em;
-    line-height: 0.5em;
-    font-weight: 100;
-    color:yellowgreen;
+    font-size: 50px;
+    line-height: 5;
+    color: #ffffff;
+    
     text-align: center;
+    margin: 0;
+    margin-top: 70px;
+
+    
+    
+
+
+    background: url(../img/gaetano-cessati-d91HDmCta0k-unsplash.jpeg);
+    /* background image */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    background-size: cover;
+    display: block;
+
+
 }
 
 
@@ -119,3 +155,4 @@ footer{
 footer nav ul {
     text-align: left;
 }
+
