@@ -94,18 +94,42 @@ header{
 
 }
 
+
+.menu-btn{
+    display: none;
+    cursor: pointer;
+
+    outline: none;
+
+    z-index: 10;
+}
 /* how to add breakpoint */
 @media screen and (max-width: 600px){
-    header{
+    .menu-btn{
+        display: block;
         
        
        
     }
-    nav{
+    .top-nav{
         padding: 2px;
-        display: none;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        background-color: rgb(238, 238, 238);
+    }
+    .top-nav li{
+        display: block;
+        font-size: larger;
+        line-height: 2;
+        text-align: left;
+
+
     }
 }
+
 
 
 

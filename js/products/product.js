@@ -6,9 +6,14 @@ const products = await response.json();
 
 // loop all categories from products.json only unique
 
-const products_container = document.getElementById("product-list");
+
+
 const categories = products.map((product) => product.category);
 const all_categories = [...new Set(categories)].sort();
+
+
+
+
 
 
 function product_template(product){
@@ -25,43 +30,142 @@ function product_template(product){
     </div>
         `;
 }
+function productListing(p){
+    p.forEach((product) => {
+        placeholder.innerHTML += product_template(product);});
+}
 
 
 
 
-// show all categories on id products_categories
+
 const products_categories = document.getElementById("products_categories");
-// all_categories.forEach((category) => {
-//     products_categories.innerHTML += `
-//     <div class="category">
-//         <button class="select-category" onclick="selectCategory('${category}')" >
-//             ${category}
-//         </button>
-//     </div>
-//         `;
-//     }); 
+all_categories.forEach((category) => {
+    products_categories.innerHTML += `
+    <div class="category">
+        <a class="select-category" href="#${category.replace(/\s+/g, '-').toLowerCase()}" >
+            ${category}
+        </a>
+    </div>
+        `;
+    }); 
 
 
-//     function selectCategory(category) {
-//         console.log(category);
-//       }
+const productsListAll = document.getElementById("product-list-all");
+all_categories.forEach((category) => {
+    productsListAll.innerHTML += `
+    <div>
+    <h3>${category}</h3>
+    <div id="${category.replace(/\s+/g, '-').toLowerCase()}" class="product-list"></div>
+    </div>
+    `;
+    }); 
+
+
+const dripIrrigation = document.getElementById("drip-irrigation");
+const dripIrrigationjson = products.filter(product => product.category === "Drip Irrigation" );
+const filters = document.getElementById("filters");
+const filterjson = products.filter(product => product.category === "Filters" );
+
+const fittingsAcc = document.getElementById("fittings-accessories");
+const fittingsAccjson = products.filter(product => product.category === "Fittings Accessories" );
+
+const mulchingFilm = document.getElementById("mulching-film");
+const mulchingFilmjson = products.filter(product => product.category === "Mulching Film" );
+const pipes = document.getElementById("pipes");
+const pipesjson = products.filter(product => product.category === "Pipes" );
+const pressureGauge = document.getElementById("pressure-gauge");
+const pressureGaugejson = products.filter(product => product.category === "Pressure Gauge" );
+const roll = document.getElementById("roll");
+const rolljson = products.filter(product => product.category === "Roll" );
+const sprinkler = document.getElementById("sprinkler");
+const sprinklerjson = products.filter(product => product.category === "SPRINKLER" );
+const valves = document.getElementById("valves");
+const valvesjson = products.filter(product => product.category === "Valves" );
+const venturiInjector = document.getElementById("venturi-injector");
+const venturiInjectorjson = products.filter(product => product.category === "Venturi Injector" );
+
+
+filterjson.forEach((product) => {
+    filters.innerHTML += product_template(product);
+});
+
+dripIrrigationjson.forEach((product) => {
+    dripIrrigation.innerHTML += product_template(product);
+});
+
+fittingsAccjson.forEach((product) => {
+    fittingsAcc.innerHTML += product_template(product);
+});
+
+mulchingFilmjson.forEach((product) => {
+    mulchingFilm.innerHTML += product_template(product);
+});
+
+pipesjson.forEach((product) => {
+    pipes.innerHTML += product_template(product);
+});
+
+pressureGaugejson.forEach((product) => {
+    pressureGauge.innerHTML += product_template(product);
+});
+
+rolljson.forEach((product) => {
+    roll.innerHTML += product_template(product);
+});
+
+sprinklerjson.forEach((product) => {
+    sprinkler.innerHTML += product_template(product);
+});
+
+valvesjson.forEach((product) => {
+    valves.innerHTML += product_template(product);
+});
+
+venturiInjectorjson.forEach((product) => {
+    venturiInjector.innerHTML += product_template(product);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       
-// document.getElementsByClassName("select-category").onclick = function(){
-//     console.log("clicked");
-// } 
+      
 
 
 
 
 
 
-
-// show all products on id products
-products.forEach((product) => {
-    products_container.innerHTML += product_template(product);
-    }   
-);
 
 
 
