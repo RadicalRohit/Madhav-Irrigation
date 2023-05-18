@@ -54,7 +54,7 @@ all_categories.forEach((category) => {
 const productsListAll = document.getElementById("product-list-all");
 all_categories.forEach((category) => {
     productsListAll.innerHTML += `
-    <div>
+    <div class="product-group">
     <h3>${category}</h3>
     <div id="${category.replace(/\s+/g, '-').toLowerCase()}" class="product-list"></div>
     </div>
