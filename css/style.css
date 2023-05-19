@@ -116,7 +116,7 @@ header{
     .top-nav{
         
         width: 100%;
-
+        display: none;
         position: absolute;
         z-index: -10;
         top: 0;
@@ -135,7 +135,9 @@ header{
         display: visible;
     }
 }
-
+.top-nav{
+    display: visible;
+}
 
 
 
